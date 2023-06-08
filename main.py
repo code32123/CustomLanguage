@@ -1,11 +1,4 @@
-from lexer import lexer
 import json
-
-# exp = "print((4*var+1)*2);"
-exp = "print(\"Math:\", (4*var+1)*2);"
-
-
-# print("Math:", (4*var+1)*2);
 
 def lexer(exp):
 	tokens = []
@@ -162,52 +155,61 @@ class treeNode:
 			"Children":[child.Dict() for child in self.children],
 		}
 
-
-
-
-tokens = lexer(exp)
-
 def prettyPrintList(li):
 	print("[\n" + "".join(["    " + str(i) + "\n" for i in li]) + "]")
-print(exp)
-prettyPrintList(tokens)
-items = [Item(t) for t in tokens]
-prettyPrintList(items)
 
-AST = treeNode(Item("Root"))
-Scope = []
 
-debuggingDump = []
+def main(exp, dumpDebugs=False, silent = False):
+	tokens = lexer(exp)
+	if not silent:
+		print(exp)
+		prettyPrintList(tokens)
+	items = [Item(t) for t in tokens]
+	if not silent:
+		prettyPrintList(items)
 
-for item in items:
-	# print()
-	# AST.print()
-	debuggingDump.append(AST.Dict())
-	#print(item, "\t"*2,AST)
-	if item.token == "openParen":
-		newParenScope = treeNode(Item("parenObject"))
-		AST.treeAppend(newParenScope)
-		Scope.append(newParenScope)
-	elif item.token == "closeParen":
-		lastScope = Scope[-1]
-		if lastScope.item.ttype != "parenObject":
-			print("Tried to pop a paren off the scope stack, but found a", lastScope.item.token)
-			raise ValueError
-		# Lock the paren obj
-		lastScope.item.token = True
-		del Scope[-1]
-	elif item.token == "semicolon":
-		pass
-	else:
-		AST.treeAppend(treeNode(item))
+	AST = treeNode(Item("Root"))
+	Scope = []
+
+	debuggingDump = []
+
+	for item in items:
+		# print()
+		# AST.print()
+		debuggingDump.append(AST.Dict())
+		#print(item, "\t"*2,AST)
+		if item.token == "openParen":
+			newParenScope = treeNode(Item("parenObject"))
+			AST.treeAppend(newParenScope)
+			Scope.append(newParenScope)
+		elif item.token == "closeParen":
+			lastScope = Scope[-1]
+			if lastScope.item.ttype != "parenObject":
+				print("Tried to pop a paren off the scope stack, but found a", lastScope.item.token)
+				raise ValueError
+			# Lock the paren obj
+			lastScope.item.token = True
+			del Scope[-1]
+		elif item.token == "semicolon":
+			pass
+		else:
+			AST.treeAppend(treeNode(item))
+	if dumpDebugs:
+		with open("logOut.json", "w+") as f:
+			json.dump(debuggingDump, f, indent=2)
+	return AST
 	
 
 
-print()
-print()
-print(AST)
-print()
-AST.print()
+if __name__ == '__main__':
 
-with open("logOut.json", "w+") as f:
-	json.dump(debuggingDump, f, indent=2)
+	# exp = "print((4*var+1)*2);"
+	exp = "print(\"Math:\", (4*var+1)*2);"
+
+	AST = main(exp, True)
+	# print("Math:", (4*var+1)*2);
+	print()
+	print()
+	print(AST)
+	print()
+	AST.print()
