@@ -1,0 +1,691 @@
+[
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": []
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": []
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 1,
+            "Children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 1,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": false,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": false,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": [
+                  {
+                    "Name": "4",
+                    "Type": "num",
+                    "MaxChildren": 0,
+                    "Children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": false,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": [
+                  {
+                    "Name": "*",
+                    "Type": "op",
+                    "MaxChildren": 2,
+                    "Children": [
+                      {
+                        "Name": "4",
+                        "Type": "num",
+                        "MaxChildren": 0,
+                        "Children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": false,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": [
+                  {
+                    "Name": "*",
+                    "Type": "op",
+                    "MaxChildren": 2,
+                    "Children": [
+                      {
+                        "Name": "4",
+                        "Type": "num",
+                        "MaxChildren": 0,
+                        "Children": []
+                      },
+                      {
+                        "Name": "var",
+                        "Type": "id",
+                        "MaxChildren": 0,
+                        "Children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": false,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": [
+                  {
+                    "Name": "+",
+                    "Type": "op",
+                    "MaxChildren": 2,
+                    "Children": [
+                      {
+                        "Name": "*",
+                        "Type": "op",
+                        "MaxChildren": 2,
+                        "Children": [
+                          {
+                            "Name": "4",
+                            "Type": "num",
+                            "MaxChildren": 0,
+                            "Children": []
+                          },
+                          {
+                            "Name": "var",
+                            "Type": "id",
+                            "MaxChildren": 0,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": false,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": [
+                  {
+                    "Name": "+",
+                    "Type": "op",
+                    "MaxChildren": 2,
+                    "Children": [
+                      {
+                        "Name": "*",
+                        "Type": "op",
+                        "MaxChildren": 2,
+                        "Children": [
+                          {
+                            "Name": "4",
+                            "Type": "num",
+                            "MaxChildren": 0,
+                            "Children": []
+                          },
+                          {
+                            "Name": "var",
+                            "Type": "id",
+                            "MaxChildren": 0,
+                            "Children": []
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "1",
+                        "Type": "num",
+                        "MaxChildren": 0,
+                        "Children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": true,
+                "Type": "parenObject",
+                "MaxChildren": 1,
+                "Children": [
+                  {
+                    "Name": "+",
+                    "Type": "op",
+                    "MaxChildren": 2,
+                    "Children": [
+                      {
+                        "Name": "*",
+                        "Type": "op",
+                        "MaxChildren": 2,
+                        "Children": [
+                          {
+                            "Name": "4",
+                            "Type": "num",
+                            "MaxChildren": 0,
+                            "Children": []
+                          },
+                          {
+                            "Name": "var",
+                            "Type": "id",
+                            "MaxChildren": 0,
+                            "Children": []
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "1",
+                        "Type": "num",
+                        "MaxChildren": 0,
+                        "Children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": "*",
+                "Type": "op",
+                "MaxChildren": 2,
+                "Children": [
+                  {
+                    "Name": true,
+                    "Type": "parenObject",
+                    "MaxChildren": 1,
+                    "Children": [
+                      {
+                        "Name": "+",
+                        "Type": "op",
+                        "MaxChildren": 2,
+                        "Children": [
+                          {
+                            "Name": "*",
+                            "Type": "op",
+                            "MaxChildren": 2,
+                            "Children": [
+                              {
+                                "Name": "4",
+                                "Type": "num",
+                                "MaxChildren": 0,
+                                "Children": []
+                              },
+                              {
+                                "Name": "var",
+                                "Type": "id",
+                                "MaxChildren": 0,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "1",
+                            "Type": "num",
+                            "MaxChildren": 0,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": false,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": "*",
+                "Type": "op",
+                "MaxChildren": 2,
+                "Children": [
+                  {
+                    "Name": true,
+                    "Type": "parenObject",
+                    "MaxChildren": 1,
+                    "Children": [
+                      {
+                        "Name": "+",
+                        "Type": "op",
+                        "MaxChildren": 2,
+                        "Children": [
+                          {
+                            "Name": "*",
+                            "Type": "op",
+                            "MaxChildren": 2,
+                            "Children": [
+                              {
+                                "Name": "4",
+                                "Type": "num",
+                                "MaxChildren": 0,
+                                "Children": []
+                              },
+                              {
+                                "Name": "var",
+                                "Type": "id",
+                                "MaxChildren": 0,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "1",
+                            "Type": "num",
+                            "MaxChildren": 0,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "2",
+                    "Type": "num",
+                    "MaxChildren": 0,
+                    "Children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Root",
+    "Type": null,
+    "MaxChildren": -1,
+    "Children": [
+      {
+        "Name": "print",
+        "Type": "id",
+        "MaxChildren": 0,
+        "Children": [
+          {
+            "Name": true,
+            "Type": "parenObject",
+            "MaxChildren": 2,
+            "Children": [
+              {
+                "Name": "\"Math:\"",
+                "Type": "str",
+                "MaxChildren": 0,
+                "Children": []
+              },
+              {
+                "Name": "*",
+                "Type": "op",
+                "MaxChildren": 2,
+                "Children": [
+                  {
+                    "Name": true,
+                    "Type": "parenObject",
+                    "MaxChildren": 1,
+                    "Children": [
+                      {
+                        "Name": "+",
+                        "Type": "op",
+                        "MaxChildren": 2,
+                        "Children": [
+                          {
+                            "Name": "*",
+                            "Type": "op",
+                            "MaxChildren": 2,
+                            "Children": [
+                              {
+                                "Name": "4",
+                                "Type": "num",
+                                "MaxChildren": 0,
+                                "Children": []
+                              },
+                              {
+                                "Name": "var",
+                                "Type": "id",
+                                "MaxChildren": 0,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "1",
+                            "Type": "num",
+                            "MaxChildren": 0,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "2",
+                    "Type": "num",
+                    "MaxChildren": 0,
+                    "Children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
