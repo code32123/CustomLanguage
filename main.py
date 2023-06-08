@@ -159,7 +159,7 @@ def prettyPrintList(li):
 	print("[\n" + "".join(["    " + str(i) + "\n" for i in li]) + "]")
 
 
-def main(exp, dumpDebugs=False, silent = False):
+def main(exp, dumpDebugs=False, silent = False, outputDebugs = False):
 	tokens = lexer(exp)
 	if not silent:
 		print(exp)
@@ -197,6 +197,8 @@ def main(exp, dumpDebugs=False, silent = False):
 	if dumpDebugs:
 		with open("logOut.json", "w+") as f:
 			json.dump(debuggingDump, f, indent=2)
+	if outputDebugs:
+		return AST, debuggingDump
 	return AST
 	
 
